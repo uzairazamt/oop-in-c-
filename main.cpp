@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class Employe{
+class Empolye{
 
 string Name ;
 string Company_name ;
@@ -46,7 +46,7 @@ void promotion(){
 
 int main() {
 
-  Employe employe1 = Employe("uzii","amazon",10,300,40);
+  Employe employe1 = Empolye("uzii","amazon",10,300,40);
 
 employe1.print();
 employe1.promotion();
